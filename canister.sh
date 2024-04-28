@@ -1,4 +1,4 @@
-dfx deploy --playground new_testToken2_backend --argument "(variant {Init =
+dfx deploy new_testToken2_backend --argument "(variant {Init =
 record {
      token_symbol = \"PSCPMW\";
      token_name = \"Photon Space Coin - Photon Milky Way\";
