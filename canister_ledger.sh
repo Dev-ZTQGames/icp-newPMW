@@ -1,4 +1,4 @@
-dfx deploy --playground newPMW --argument "(variant {Init =
+dfx deploy --playground newPMW_ledger --argument "(variant {Init =
 record {
      token_symbol = \"PSCPMW\";
      token_name = \"Photon Space Coin - Photon Milky Way\";
