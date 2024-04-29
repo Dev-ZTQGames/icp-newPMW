@@ -1,4 +1,4 @@
-dfx deploy new_testToken2_backend --argument "(variant {Init =
+dfx deploy --playground newPMW --argument "(variant {Init =
 record {
      token_symbol = \"PSCPMW\";
      token_name = \"Photon Space Coin - Photon Milky Way\";
@@ -11,7 +11,7 @@ record {
              record {
                  owner = principal \"pi5f5-wa6q7-y2zcs-4nqx7-veomh-k3rqy-bpii6-54d47-iix3c-hh3nx-pae\";
              };
-             10_000_000_000;
+             100_000_000_000_000_000;
          };
      };
      archive_options = record {

@@ -1,9 +1,9 @@
 {
   "canisters": {
-    "new_testToken2_backend": {
+    "newPMW": {
       "type" : "custom",
-      "candid": "https://raw.githubusercontent.com/dfinity/ic/33dd2ef2184a64c00e64ff0412e7378d46507005/rs/rosetta-api/icrc1/ledger/ledger.did",
-      "wasm": "https://download.dfinity.systems/ic/33dd2ef2184a64c00e64ff0412e7378d46507005/canisters/ic-icrc1-ledger.wasm.gz"
+      "candid": "icrc1_ledger.did",
+      "wasm": "icrc1_ledger.wasm"
     }
   },
   "defaults": {
